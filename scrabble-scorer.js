@@ -42,7 +42,7 @@ function initialPrompt() {
 let newPointStructure = transform(oldPointStructure);
 
 let simpleScorer = function(word) {
-   return word.length; // could use a for loop but in simple terms, simple scorer = length of word since letters worht 1 pt.
+   return word.length; // could use a for loop but in simple terms, simple scorer = length of word since letters worth 1 pt.
 };
 
 let vowelBonusScorer = function(word) {
